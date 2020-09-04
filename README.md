@@ -9,8 +9,17 @@ __TODO__
   * [ ] further investigation into MSFS Dev tools to add lights etc within the Dev Editor
   * [ ] fall down a 3D modeling/scenery creation rabbithole
 
+## Overview
+### Setup Project Files
+### Capture model in RenderDoc and Chrome
+### Import capture into Blender, tidy up, and export
+### Run MSFS in Dev mode and setup project
+### Scale, postition and save model and rebuild package
+### Try it out
 
-### Setup Project files
+---
+
+## Setup Project files
   * [ ] Install all pre-reqs as per notes on the [YouTube tutorial](https://www.youtube.com/watch?v=ZdCP11rqpVk) *(further notes to come)*
   * [ ] Copy ```SimpleScene``` from Sample SDK library into a 'projects area'
   * [ ] Rename ```SimpleScene``` folder to a project name, refered to as ```<project_folder>``` in this documentation
@@ -28,7 +37,7 @@ __TODO__
     * [ ] Line 16 - replace ```'mycompany-scene'``` with ```<project_name>```
     * [ ] line 17 - replace ```'mycompany-scene'``` with ```<project_name>```
 
-### Run RenderDoc and Chrome
+## Capture model in RenderDoc and Chrome
   * [ ] Run RenderDoc
   * [ ] Open a CMD prompt and use the following two lines
 
@@ -49,7 +58,7 @@ __TODO__
   * [ ] ```File``` -> ```Save Capture As``` -> give filename and save somehwere sensible, but not in scenery project folder area
   * [ ] Close RenderDoc
 
-### Bring into Blender and tidy up
+## Import capture into Blender, tidy up, and export
   * [ ] Run Blender
   * [ ] Delete the default cube and camera
   * [ ] ```File``` -> ```Import``` -> ```Google Maps Capture```
@@ -83,7 +92,7 @@ __TODO__
   * Edit ```<project_folder>\PackageSources\modelLib\<Project_name>Model\<project_name>.xml```
     * [ ] Line 1 - change XML version number to '1.1' and add 'encoding="utf-8"
 
-### Go into MSFS in Dev mode and load up the model etc
+## Run MSFS in Dev mode and setup project
   * [ ] Run MSFS
   * [ ] Get yourself onto the map near where you want your model to go
   * [ ] ```Options``` -> ```Pause Simulation```
@@ -96,7 +105,7 @@ __TODO__
   * [ ] Click 'Build Packages' (may take a few seconds)
   * [ ] Click 'myscene' (from Project Editor) and click 'Load in Editor' from the Inspector
 
-### Postition and Save
+## Exclude autogen stuff, load, scale, postition and save model and rebuild package
   * [ ] Scenery Editor -> ```View``` -> ```Objects```
   * [ ] Select ```Polygon``` from dropdown and click 'Add'
   * [ ] Place exclusion Polygon around scenery you do not want any autogen scenery to show.
@@ -112,7 +121,7 @@ __TODO__
     * [ ] Save ```<project_name>SCN``` into ```<project_folder>\PackageSources\scene```
   * [ ] Close MSFS
 
-### Try it out
+## Try it out
   * [ ] Copy ```<Project_folder>\Package\<Project_Name>``` folder into your MSFS ```Community``` folder.
   * [ ] Launch Game and go have a look...
 
