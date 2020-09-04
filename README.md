@@ -40,7 +40,7 @@ __TODO__
   * [ ] Filter by the Chrome PID and click ```Inject```
   * [ ] Ensure ```Connection Status``` shows ```Established```
   * [ ] Go back to Chrome and click 'OK' in the PID dialog
-  * [ ] Go find scenery in Google Maps (turn labels off)
+  * [ ] Go find scenery in prefered Photogrammetry viewer and consider hiding any text/labels
   * [ ] Once found and in 3D, in RenderDoc, click ```Capture Frame(s) Immediately```
   * [ ] **Return to Google Chrome and 'wiggle' the view a bit in the map to ensure good capture of data in RenderDoc**
   * [ ] Double click on the capture thumbnail and ensure you see at least 3 color passs in the Event Broswer, but no more than 4
