@@ -111,6 +111,6 @@ __TODO__
     * [ ] Save ```<project_name>SCN``` into ```<project_folder>\PackageSources\scene```
 
 ### Try it out
-  * [ ] Move ```<Project_folder>\Package\<Project_Name>``` folder into community
+  * [ ] Copy ```<Project_folder>\Package\<Project_Name>``` folder into your MSFS ```Community``` folder.
   * [ ] Launch Game and go have a look...
-Run MSFS
+
