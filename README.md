@@ -95,7 +95,7 @@ __TODO__
 
 ### Postition and Save
   * [ ] Scenery Editor -> ```View``` -> ```Objects```
-  * [ ] Select Polygon from dropdown and click 'Add'
+  * [ ] Select ```Polygon``` from dropdown and click 'Add'
   * [ ] Place exclusion Polygon around scenery you do not want any autogen scenery to show.
   * [ ] Right click on the centre point of the polygon and select 'Properties'. 
   * [ ] Select ```Exclude All```
