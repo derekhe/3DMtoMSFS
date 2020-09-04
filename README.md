@@ -14,7 +14,7 @@ __TODO__
   * [ ] Install all pre-reqs as per notes on the [YouTube tutorial](https://www.youtube.com/watch?v=ZdCP11rqpVk) *(further notes to come)*
   * [ ] Copy ```SimpleScene``` from Sample SDK library into a 'projects area'
   * [ ] Rename ```SimpleScene``` folder to a project name, refered to as ```<project_folder>``` in this documentation
-  * [ ] Rename ```<project_folder>\SceneryProject.xlm``` to ```<project_name>.xlm```
+  * [ ] Rename ```<project_folder>\SceneryProject.xml``` to ```<project_name>.xml```
   * [ ] Rename folder ```<project_folder>\PackageDefinitions\mycompany-scene``` to ```<project_name>```
   * [ ] Rename ```<project_folder>\PackageDefinitions\mycompany-scene.xml``` to ```<project_name>.xml```
   * [ ] Delete all subfolders in ```<project_folder>\PackageSources\modelLib```
