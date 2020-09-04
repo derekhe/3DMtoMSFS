@@ -28,7 +28,7 @@ __TODO__
     * [ ] Line 16 - replace ```'mycompany-scene'``` with ```<project_name>```
     * [ ] line 17 - replace ```'mycompany-scene'``` with ```<project_name>```
 
-### Run RenderDoc and Chrome in developer mode ###
+### Run RenderDoc and Chrome
   * [ ] Run RenderDoc
   * [ ] Open a CMD prompt and use the following two lines
 
