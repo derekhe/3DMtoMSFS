@@ -13,7 +13,7 @@ __TODO__
 ### Setup Project files
   * [ ] Install all pre-reqs as per notes on the [YouTube tutorial](https://www.youtube.com/watch?v=ZdCP11rqpVk) *(further notes to come)*
   * [ ] Copy ```SimpleScene``` from Sample SDK library into a 'projects area'
-  * [ ] Rename copied sample folder to your project name, refered to as ```<project_folder>``` in this documentation
+  * [ ] Rename ```SimpleScene``` folder to a project name, refered to as ```<project_folder>``` in this documentation
   * [ ] Rename ```<project_folder>\SceneryProject.xlm``` to ```<project_name>.xlm```
   * [ ] Rename folder ```<project_folder>\PackageDefinitions\mycompany-scene``` to ```<project_name>```
   * [ ] Rename ```<project_folder>\PackageDefinitions\mycompany-scene.xml``` to ```<project_name>.xml```
