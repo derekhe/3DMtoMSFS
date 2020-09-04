@@ -1,15 +1,17 @@
+# **Creating Custom Scenery in MSFS**
+*subject to change*
+
+### Many thanks to u/TheStoneFox for his incredible [YouTube tutorial](https://www.youtube.com/watch?v=ZdCP11rqpVk), from which all these notes derive
+
 __TODO__ 
   * [ ] further Blender investigations around colour correction and texture 'blending'/merging into single texture file
   * [ ] possible 'setup script' that sorts out the first 'file management' aspects
   * [ ] further investigation into MSFS Dev tools to add lights etc within the Dev Editor
   * [ ] fall down a 3D modeling/scenery creation rabbithole
 
-# **Creating Custom Scenery in MSFS**
-*subject to change*
-
-  * [ ] Install all pre-reqs as per notes 
 
 ### Setup Project files
+  * [ ] Install all pre-reqs as per notes on the [YouTube tutorial](https://www.youtube.com/watch?v=ZdCP11rqpVk) *(further notes to come)*
   * [ ] Copy ```SimpleScene``` from Sample SDK library into a 'projects area'
   * [ ] Rename copied sample folder to your project name, refered to as ```<project_folder>``` in this documentation
   * [ ] Rename ```<project_folder>\SceneryProject.xlm``` to ```<project_name>.xlm```
