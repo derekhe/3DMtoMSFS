@@ -1,7 +1,7 @@
 # **Creating Custom Scenery in MSFS**
 *subject to change*
 
-### Many thanks to u/TheStoneFox for his incredible [YouTube tutorial](https://www.youtube.com/watch?v=ZdCP11rqpVk), from which all these notes derive
+Many thanks to [u/TheStoneFox](https://www.reddit.com/user/TheStoneFox/) for his incredible [YouTube tutorial](https://www.youtube.com/watch?v=ZdCP11rqpVk), from which all these notes derive
 
 __TODO__ 
   * [ ] further Blender investigations around colour correction and texture 'blending'/merging into single texture file
