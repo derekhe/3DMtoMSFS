@@ -86,6 +86,7 @@ __TODO__
   * [ ] ```Options``` -> ```Pause Simulation```
   * [ ] ```Camera``` -> ```Developer Camera```
   * [ ] ```Tools``` -> ```Project Editor```
+  * [ ] ```Project``` -> ```Open...```  
   * [ ] Open the project using the root <projecct_name>.xml created at the start of the Process
   * [ ] 'View' -> 'Inspector'
   * [ ] Fill out details of the project if you wish
@@ -93,17 +94,21 @@ __TODO__
   * [ ] Click 'myscene' (from Project Editor) and click 'Load in Editor' from the Inspector
 
 ### Postition and Save
-Scenery Editor -> View -> Objects
-Select Polygon from dropdown and click 'Add'
-Place exclusion Polygon around scenery you do not want any autogen scenery to show.
-Right click on the centre point of the polygon and select 'Properties'. 
-Select 'Exclude All'
+  * [ ] Scenery Editor -> ```View``` -> ```Objects```
+  * [ ] Select Polygon from dropdown and click 'Add'
+  * [ ] Place exclusion Polygon around scenery you do not want any autogen scenery to show.
+  * [ ] Right click on the centre point of the polygon and select 'Properties'. 
+  * [ ] Select ```Exclude All```
+  * [ ] Scenery Editor -> ```View``` -> ```Objects```
+  * [ ] Select ```Scenery``` from dropdown
+  * [ ] Search for your model and click 'Add'
+  * [ ] Place model and scale/rotate etc using the 'Gizmo' tool
+  * [ ] Highlight the top level project name in the Project Editor and in the Inspector, click ```Build Packages```
+  * [ ] Once happy with placement and location, click ```Save Scnenry``` in the Scenery Editor
+    * [ ] Save ```<project_name>SHP``` into ```<project_folder>\PackageSources\scene```
+    * [ ] Save ```<project_name>SCN``` into ```<project_folder>\PackageSources\scene```
 
-Scenery Editor -> View -> Objects
-Select 'Scenery' from dropdown
-Search for your model and click 'Add'
-Place model and scale/rotate etc using the 'Gizmo' tool
-Once happy with placement and location, click 'Save Scnenry'
-Save <project_name> into 
-Move package into community
+### Try it out
+  * [ ] Move ```<Project_folder>\Package\<Project_Name>``` folder into community
+  * [ ] Launch Game and go have a look...
 Run MSFS
