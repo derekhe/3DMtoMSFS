@@ -16,8 +16,8 @@ __TODO__
   * [ ] Rename folder ```<project_folder>\PackageDefinitions\mycompany-scene``` to ```<project_name>```
   * [ ] Rename ```<project_folder>\PackageDefinitions\mycompany-scene.xml``` to ```<project_name>.xml```
   * [ ] Delete all subfolders in ```<project_folder>\PackageSources\modelLib```
-  * [ ] Create folder in ```<project_folder>\PackageSources\modelLib``` called 'texture'
-  * [ ] Create folder in ```<project_folder>\PackageSources\modelLib``` called '<project_name>Model'
+  * [ ] Create folder in ```<project_folder>\PackageSources\modelLib``` called **texture**
+  * [ ] Create folder in ```<project_folder>\PackageSources\modelLib``` called **<project_name>Model**
   * [ ] Delete ```object.xml``` from ```<project_folder>\PackageSources\scene```
   * **Edit**  ```<project_folder>\<project_name>.xml```
     * [ ] Line 5 - replace ```'mycomapny-scene'``` with ```<project_name>```
@@ -36,21 +36,21 @@ __TODO__
     > "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-gpu-sandbox --gpu-startup-dialog
 
   * [ ] Make a note of the PID but don't 'OK' dialog box
-  * [ ] In RenderDoc, go to ```File``` -> ```'Inject into Process'```
-  * [ ] Filter by the Chrome PID and click ```'Inject'```
-  * [ ] Ensure ```'Connection Status'``` shows ```'Established'```
+  * [ ] In RenderDoc, go to ```File``` -> ```Inject into Process```
+  * [ ] Filter by the Chrome PID and click ```Inject```
+  * [ ] Ensure ```Connection Status``` shows ```Established```
   * [ ] Go back to Chrome and click 'OK' in the PID dialog
   * [ ] Go find scenery in Google Maps (turn labels off)
-  * [ ] Once found and in 3D, in RenderDoc, click ```'Capture Frame(s) Immediately'```
+  * [ ] Once found and in 3D, in RenderDoc, click ```Capture Frame(s) Immediately```
   * [ ] **Return to Google Chrome and 'wiggle' the view a bit in the map to ensure good capture of data in RenderDoc**
   * [ ] Double click on the capture thumbnail and ensure you see at least 3 color passs in the Event Broswer, but no more than 4
-  * [ ] ```'File'``` -> ```'Save Capture As'``` -> give filename and save somehwere sensible, but not in scenery project folder area
+  * [ ] ```File``` -> ```Save Capture As``` -> give filename and save somehwere sensible, but not in scenery project folder area
   * [ ] Close RenderDoc
 
 ### Bring into Blender and tidy up
   * [ ] Run Blender
   * [ ] Delete the default cube and camera
-  * [ ] ```'File'``` -> ```'Import'``` -> ```'Google Maps Capture'```
+  * [ ] ```File``` -> ```Import``` -> ```Google Maps Capture```
   * [ ] Select the RDC file from Renderdoc
   * [ ] User Blender to clean up and trim down model to required size
     * **Tips**
@@ -59,15 +59,15 @@ __TODO__
     *  Hit TAB to enter edit mode and 'paint' the verticies you don't want and hit DELETE
   * [ ] Once ready, press 'a' followed by CTRL + J to 'join' all the textures together
   * [ ] Press 'a' to ensure whole model is selected and remains selected until you finish the export
-  * [ ] ```'File'``` -> ```'Export'``` -> ```'extended glTF 2.0 (.glb/.gltf) for MSFS'```
+  * [ ] ```File``` -> ```Export``` -> ```extended glTF 2.0 (.glb/.gltf) for MSFS```
   * [ ] Navigate to ```<project_folder>\PackageSources\modelLib\<Project_name>Model```
   * [ ] Provide filename ```<project_name>```
     **File Properties:**
-    * Format      = ```'glTF Seperate'```
-    * Textures    = ```'..\texture\'```
+    * Format      = ```glTF Seperate```
+    * Textures    = ```..\texture\```
     * **MSFS** 
       * Generate/Append XML = Selected
-      * XML Filename = ```'<project_name>'```
+      * XML Filename = ```<project_name>```
       * Generate GUID = Selected
     * **Include**
       * Selected Object = Selected
@@ -83,8 +83,9 @@ __TODO__
 
 ### Go into MSFS in Dev mode and load up the model etc
   * [ ] Get yourself onto the map near where you want your model to go
-  * [ ] 'Options' -> 'Pause Simulation'
-  * [ ] 'Camera' -> 'Developer Camera'
+  * [ ] ```Options``` -> ```Pause Simulation```
+  * [ ] ```Camera``` -> ```Developer Camera```
+  * [ ] ```Tools``` -> ```Project Editor```
   * [ ] Open the project using the root <projecct_name>.xml created at the start of the Process
   * [ ] 'View' -> 'Inspector'
   * [ ] Fill out details of the project if you wish
