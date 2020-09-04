@@ -84,6 +84,7 @@ __TODO__
     * [ ] Line 1 - change XML version number to '1.1' and add 'encoding="utf-8"
 
 ### Go into MSFS in Dev mode and load up the model etc
+  * [ ] Run MSFS
   * [ ] Get yourself onto the map near where you want your model to go
   * [ ] ```Options``` -> ```Pause Simulation```
   * [ ] ```Camera``` -> ```Developer Camera```
@@ -109,6 +110,7 @@ __TODO__
   * [ ] Once happy with placement and location, click ```Save Scnenry``` in the Scenery Editor
     * [ ] Save ```<project_name>SHP``` into ```<project_folder>\PackageSources\scene```
     * [ ] Save ```<project_name>SCN``` into ```<project_folder>\PackageSources\scene```
+  * [ ] Close MSFS
 
 ### Try it out
   * [ ] Copy ```<Project_folder>\Package\<Project_Name>``` folder into your MSFS ```Community``` folder.
