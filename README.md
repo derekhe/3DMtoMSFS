@@ -7,7 +7,7 @@ __TODO__
 # **Creating Custom Scenery in MSFS**
 *subject to change*
 
-[ ] Install all pre-reqs as per notes 
+  * [ ] Install all pre-reqs as per notes 
 
 ### Setup Project files
   * [ ] Copy ```SimpleScene``` from Sample SDK library into a 'projects area'
