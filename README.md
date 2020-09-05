@@ -21,8 +21,8 @@ __TODO__
 
 ## Setup Project files
   * [ ] Install all pre-reqs as per notes on the [YouTube tutorial](https://www.youtube.com/watch?v=ZdCP11rqpVk) *(further notes to come)*
-  * [ ] Copy ```SimpleScene``` from Sample SDK library into a 'projects area'
-  * [ ] Rename ```SimpleScene``` folder to a project name, refered to as ```<project_folder>``` in this documentation
+  * [ ] Copy ```SimpleScenery``` from Sample SDK library into a 'projects area'
+  * [ ] Rename ```SimpleScenery``` folder to a project name, refered to as ```<project_folder>``` in this documentation
   * [ ] Rename ```<project_folder>\SceneryProject.xml``` to ```<project_name>.xml```
   * [ ] Rename folder ```<project_folder>\PackageDefinitions\mycompany-scene``` to ```<project_name>```
   * [ ] Rename ```<project_folder>\PackageDefinitions\mycompany-scene.xml``` to ```<project_name>.xml```
@@ -31,9 +31,9 @@ __TODO__
   * [ ] Create folder in ```<project_folder>\PackageSources\modelLib``` called **<project_name>Model**
   * [ ] Delete ```object.xml``` from ```<project_folder>\PackageSources\scene```
   * **Edit**  ```<project_folder>\<project_name>.xml```
-    * [ ] Line 5 - replace ```'mycomapny-scene'``` with ```<project_name>```
+    * [ ] Line 5 - replace ```'mycompany-scene'``` with ```<project_name>```
   * **Edit** ```<project_folder>\PackageDefinitions\<project_name>.xml```
-    * [ ] Line 1 - replace ```'mycomapny-scene'``` with ```<project_name>```
+    * [ ] Line 1 - replace ```'mycompany-scene'``` with ```<project_name>```
     * [ ] Line 16 - replace ```'mycompany-scene'``` with ```<project_name>```
     * [ ] line 17 - replace ```'mycompany-scene'``` with ```<project_name>```
 
@@ -54,7 +54,7 @@ __TODO__
   * [ ] Go find scenery in prefered Photogrammetry viewer and consider hiding any text/labels
   * [ ] Once found and in 3D, in RenderDoc, click ```Capture Frame(s) Immediately```
   * [ ] **Return to Google Chrome and 'wiggle' the view a bit in the map to ensure good capture of data in RenderDoc**
-  * [ ] Double click on the capture thumbnail and ensure you see at least 3 color passs in the Event Broswer, but no more than 4
+  * [ ] Double click on the capture thumbnail and ensure you see at least 3 color passes in the Event Broswer, but no more than 4
   * [ ] ```File``` -> ```Save Capture As``` -> give filename and save somehwere sensible, but not in scenery project folder area
   * [ ] Close RenderDoc
 
@@ -120,12 +120,12 @@ __TODO__
   * [ ] Search for your model and click 'Add'
   * [ ] Place model and scale/rotate etc using the 'Gizmo' tool
   * [ ] Highlight the top level project name in the Project Editor and in the Inspector, click ```Build Packages```
-  * [ ] Once happy with placement and location, click ```Save Scnenry``` in the Scenery Editor
+  * [ ] Once happy with placement and location, click ```Save Scenery``` in the Scenery Editor
     * [ ] Save ```<project_name>SHP``` into ```<project_folder>\PackageSources\scene```
     * [ ] Save ```<project_name>SCN``` into ```<project_folder>\PackageSources\scene```
   * [ ] Close MSFS
 
 ## Try it out
-  * [ ] Copy ```<Project_folder>\Package\<Project_Name>``` folder into your MSFS ```Community``` folder.
+  * [ ] Copy ```<Project_folder>\Packages\<Project_Name>``` folder into your MSFS ```Community``` folder.
   * [ ] Launch Game and go have a look...
 
