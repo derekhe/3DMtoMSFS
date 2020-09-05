@@ -91,10 +91,10 @@ __TODO__
   * [ ] Check ```<project_folder>\PackageSources\modelLib\<Project_name>Model``` folder for 3 files
   * Edit ```<project_folder>\PackageSources\modelLib\<Project_name>Model\<project_name>.xml```
     * [ ] Line 1 - change XML version number to '1.1' and add 'encoding="utf-8"
-  * *Note - this is slighly different from the video, but testing has shown only these two minimal edits are enought to get this working
-  * Example 'fixed' XML - *your GUID will be different*
-  * ```<?xml version="1.1" encoding="utf-8"?>```
-  * ```<ModelInfo guid="{9e69ed10-c8df-4a97-2aa0-ba2106c665c1}" version="1.1"/>```
+    * *Note - this is slighly different from the video, but testing has shown only these two minimal edits are enought to get this working
+    * Example 'fixed' XML - *your GUID will be different*
+    * ```<?xml version="1.1" encoding="utf-8"?>```
+    * ```<ModelInfo guid="{9e69ed10-c8df-4a97-2aa0-ba2106c665c1}" version="1.1"/>```
 
 ## Run MSFS in Dev mode and setup project
   * [ ] Run MSFS
